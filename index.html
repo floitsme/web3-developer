@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Web 3 Developer</title>
+  <meta name="description" content="Web 3 Developer — professional web3 builds, livestream integrations, and community-driven features." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/w3-logo.png">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="left">
+      <img src="assets/w3-logo.png" alt="W3 Logo" class="logo" />
+      <span class="brand">Web 3 Developer</span>
+    </div>
+    <nav class="right">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <!-- Buy W3 direct to community link -->
+      <a class="btn btn-primary" id="buyBtn" href="https://x.com/i/communities/1972202522338382204" target="_blank" rel="noopener">Buy W3</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main class="hero">
+    <img src="assets/w3-logo.png" alt="W3 Logo" class="mark-center" />
+    <div class="badge">Contract Address: <strong id="contract">Will Update Soon</strong></div>
+
+    <h1><span class="accent">W3</span> — Building the Open Web</h1>
+    <p class="sub">
+      Web 3 development for founders and blockchain projects — on-chain livestreaming, community fee donations,
+      and clean, fast UX.
+    </p>
+    <div class="cta">
+      <a class="btn glow" href="#get-started">Get Started</a>
+      <!-- Join Community link updated -->
+      <a class="btn" id="communityBtn" href="https://x.com/i/communities/1972202522338382204" target="_blank" rel="noopener">Join Community</a>
+      <!-- Watch Live direct to community link -->
+      <a class="btn outline" id="watchBtn" href="https://x.com/i/communities/1972202522338382204" target="_blank" rel="noopener">Watch Live</a>
+    </div>
+  </main>
+
+  <section id="about" class="panel">
+    <h2>Why Web 3 Developer?</h2>
+    <p>We ship robust dapps, landing pages, and stream overlays with wallet-ready components and flexible analytics hooks.</p>
+    <ul class="features">
+      <li>⚡ Fast iteration & launch</li>
+      <li>🎮 Stream overlays & chat triggers</li>
+      <li>🔐 Wallet/contract sections</li>
+      <li>🌐 Deployable to GitHub Pages & Vercel</li>
+    </ul>
+  </section>
+
+  <section id="services" class="panel cards">
+    <article class="card"><h3>Dapp & Landing</h3><p>Responsive sites that convert visitors into holders.</p></article>
+    <article class="card"><h3>Overlays</h3><p>Livestream overlays with playful animations.</p></article>
+    <article class="card"><h3>Analytics</h3><p>Hooks for holders, fees, and donation stats (coming soon).</p></article>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Web 3 Developer. Built with purple–green–blue gradients.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
